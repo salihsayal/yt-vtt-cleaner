@@ -30,7 +30,7 @@ cd yt-vtt-cleaner
 
    ```bash
    yt-dlp --write-auto-sub --sub-lang en --skip-download "https://youtube.com/watch?v=..."
-```
+    ```
 
 2. **Run the script to clean the `.vtt` file:**
 
