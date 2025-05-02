@@ -20,6 +20,34 @@ LLMs like GPT-4, Claude, and others perform best when given structured and coher
 Just clone this repo and use Python 3 (no external dependencies required):
 
 ```bash
-git clone https://github.com/yourusername/subtitle-cleaner.git
-cd subtitle-cleaner
+git clone https://github.com/salihsayal/yt-vtt-cleaner.git
+cd yt-vtt-cleaner
 ```
+
+## 📄 Usage
+
+1. **Download subtitles with `yt-dlp`:**
+
+   ```bash
+   yt-dlp --write-auto-sub --sub-lang en --skip-download "https://youtube.com/watch?v=..."
+```
+
+2. **Run the script to clean the `.vtt` file:**
+
+    ```bash
+    python yt-vtt-cleaner.py {your file}
+    ```
+
+2. **Result:**
+
+    You’ll get a cleaned `.txt` file `cleaned_subtitles.txt`, ready to be used for LLM summarization or analysis.
+
+---
+
+## 📜 License
+
+MIT License — use freely and modify as needed.
+
+---
+
+*Created to make subtitles useful again.* 🧼
